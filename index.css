@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#menu{
+	height: 30px;
+	background-color: rgba(255, 255, 255, 1);
+	position: fixed;
+	text-align: right;
+	z-index: 999;
+	box-shadow: 3px 3px 5px rgb(96, 166, 54);
+}
+#main{
+	height: 700px; 
+	margin: 0; 
+	width: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	background-color: rgba(236, 238, 234, 1);
+
+}
+.main-title{
+	padding-top: 170px;	
+}
+
+.foto{
+	width: 150px;
+	float: right;
+	margin-top: 150px;
+}
+.me{
+	height: auto; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative;
+	padding: 20px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.about{
+	text-align: center;
+}
+.foto{
+	width: 80%;
+	margin-top: 10px;
+}
+.soft-skills{
+	text-align: center;
+}
+.skill{
+	padding: 5px;
+	border-radius: 2px;
+	background-color: rgba(96, 166, 54, 0.1);
+	box-shadow: 3px 3px 5px rgba(96, 166, 54, 0.2);
+	text-align: center;
+}
+.skill-logo{
+	width:50%;
+	height: auto;
+}
+.none{
+	float: none; 
+	clear: both;
+}
+.github{
+	text-align: center;
+	padding: 5px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	background-color: rgba(96, 166, 54, 0.1);
+	box-shadow: 3px 3px 5px rgba(96, 166, 54, 0.2);
+}
+.project-image-img{
+	width: 100%;
+}
+.project-skill{
+	padding: 5px;
+	text-align: center;
+}
+#contact{
+	background-color: rgba(236, 238, 234, 1);
+	height: 500px;
+	padding-top: 90px;
+}
+#project1{ 
+	background-image: url(img/2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 300px; 
+	height: 300px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	opacity: 0.3;
+}
+#project2{ 
+	background-image: url(img/1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 300px; 
+	height: 300px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	opacity: 0.3;
+}
+#project3{ 
+	background-image: url(img/3.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px; 
+	height: 500px; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	opacity: 0.3;
+}
+
+footer{
+	height: 700px;
+	background-color: rgba(236, 238, 234, 1);
+}
