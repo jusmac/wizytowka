@@ -56,7 +56,6 @@ var scroll = function(){
 	});
 };
 
-
 $(function(){
 	scroll();
 });
