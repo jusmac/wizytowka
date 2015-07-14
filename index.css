@@ -8,7 +8,7 @@ body{
 	position: fixed;
 	text-align: right;
 	z-index: 999;
-	box-shadow: 3px 3px 5px rgb(96, 166, 54);
+	padding-top: 5px;
 }
 #main{
 	height: 700px; 
@@ -17,11 +17,13 @@ body{
 	text-align: center;
 	position: relative;
 	z-index: 1;
-	background-color: rgba(236, 238, 234, 1);
-
+	background-image: url(img/background1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
 }
 .main-title{
-	padding-top: 170px;	
+	padding-top: 300px;	
 }
 
 .foto{
@@ -41,20 +43,22 @@ body{
 	text-align: center;
 }
 .about{
+	margin-top: 50px;
 	text-align: center;
+	padding-bottom: 50px;
 }
 .foto{
 	width: 80%;
-	margin-top: 10px;
+	margin-top: 60px;
 }
 .soft-skills{
 	text-align: center;
+	padding-bottom: 150px;
 }
 .skill{
 	padding: 5px;
 	border-radius: 2px;
-	background-color: rgba(96, 166, 54, 0.1);
-	box-shadow: 3px 3px 5px rgba(96, 166, 54, 0.2);
+	box-shadow: 3px 3px 5px rgba(196, 250, 154, 0.1);
 	text-align: center;
 }
 .skill-logo{
@@ -70,8 +74,10 @@ body{
 	padding: 5px;
 	border-radius: 2px;
 	margin-bottom: 20px;
-	background-color: rgba(96, 166, 54, 0.1);
-	box-shadow: 3px 3px 5px rgba(96, 166, 54, 0.2);
+	box-shadow: 3px 3px 5px rgba(196, 250, 154, 0.5);
+}
+.project-caption{
+	padding-top: 10px;
 }
 .project-image-img{
 	width: 100%;
@@ -81,13 +87,18 @@ body{
 	text-align: center;
 }
 #contact{
-	background-color: rgba(236, 238, 234, 1);
 	height: 500px;
-	padding-top: 90px;
+	padding-top: 300px;
+	padding-bottom: 500px;
+	background-image: url(img/background1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
 }
 #project1{ 
-	background-image: url(img/2.jpg);
+	background-image: url(img/1.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	min-height: 300px; 
 	height: 300px; 
@@ -95,10 +106,9 @@ body{
 	width: 100%; 
 	max-width: 1920px; 
 	position: relative; 
-	opacity: 0.3;
 }
 #project2{ 
-	background-image: url(img/1.jpg);
+	background-image: url(img/2.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -108,7 +118,6 @@ body{
 	width: 100%; 
 	max-width: 1920px; 
 	position: relative; 
-	opacity: 0.3;
 }
 #project3{ 
 	background-image: url(img/3.jpg);
@@ -121,10 +130,9 @@ body{
 	width: 100%; 
 	max-width: 1920px; 
 	position: relative; 
-	opacity: 0.3;
 }
 
 footer{
-	height: 700px;
+	height: 200px;
 	background-color: rgba(236, 238, 234, 1);
 }
