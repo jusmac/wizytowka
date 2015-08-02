@@ -1,5 +1,5 @@
 h1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Archivo Narrow', sans-serif;
 	line-height: 52px;
 	font-size: 50px;
 	text-transform: uppercase;
@@ -10,10 +10,15 @@ h1{
 }
 
 h2{
-	font-family: 'Basic', sans-serif;
-	font-size: 45px;
-	font-weight: bold;
-	color: rgb(15, 21, 19);
+	font-family: 'Archivo Narrow', sans-serif;
+	line-height: 52px;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: .5px;
+	color: #FFF;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+}
 }
 
 h3{
@@ -69,8 +74,13 @@ a:hover{
 a:visited{
 	color: rgb(9, 31, 13);
 }
+
+
 @media only screen and (max-width: 600px) {
 	h1{
+		font-size: 30px;
+	}
+	h2{
 		font-size: 30px;
 	}
 	h3{
@@ -91,6 +101,9 @@ a:visited{
 }
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
 	h1{
+		font-size: 45px;
+	}
+	h2{
 		font-size: 45px;
 	}
 	h3{
